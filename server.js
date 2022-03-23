@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors()); // to prevent cors errors, open access to all origins
 app.use(express.json()); // parse json bodies
 app.use(morgan('dev')); // logging
-app.use('/project', controllers.project);
+app.use('/projects', controllers.project);
 
 
 app.get("/", (req,res) =>{
