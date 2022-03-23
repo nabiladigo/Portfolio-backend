@@ -15,3 +15,12 @@ mongoose.connection
     .on('close', () => console.log('MongoDB disconnected  ⚡️ 🔌 ⚡️'))
     .on('error', (error) => console.log('MongoDB connection error 😥', error));
 
+
+
+    // need to add this to .env not sure if neccessery
+//     heroku config
+// #GITHUB_USERNAME: joesmith
+// #OTHER_VAR:    production
+
+// heroku config:get GITHUB_USERNAME
+// #joesmith
