@@ -1,0 +1,20 @@
+[
+    {
+      "name": "2048 game",
+      "live": "https://app.herokuapp.com/whatever",
+      "git": "https://github.com/nabiladigo/Project2048",
+      "image": "https://ironyca.files.wordpress.com/2014/03/2048-highscore.jpg"
+    },
+    {
+      "name": "Art Spark",
+      "live": "https://hidden-chamber-68677.herokuapp.com/artwork",
+      "git":  "https://github.com/nabiladigo/reverse-engineer",
+      "image": "https://i.imgur.com/UpVoHZ5.png"
+    },
+    {
+      "name": "project2",
+      "live": "https://app.netlify.app/whatever",
+      "git": "https://github.com/nabiladigo/Project-Wayfarer",
+      "image": "https://i.imgur.com/vegPiz6.png"
+    }
+  ]
