@@ -4,7 +4,7 @@ const morgan = require('morgan');
 
 // const controllers = require('./controllers');
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 5000;
 
 const projects = require('./projects.json');
 const about =require('./about.json');
@@ -33,18 +33,18 @@ app.get('/home', (req, res) =>{
 });
 
 
-app.get('/about', (req,res) =>{
+// app.get('/about', (req,res) =>{
     
-    res.json(about);
-});
-app.get('/contact', (req,res) =>{
+//     res.json(about);
+// });
+// app.get('/contact', (req,res) =>{
     
-    res.json(contact);
-});
-app.get('/resume', (req,res) =>{
+//     res.json(contact);
+// });
+// app.get('/resume', (req,res) =>{
     
-    res.json(resume);
-});
+//     res.json(resume);
+// });
 
 
 
