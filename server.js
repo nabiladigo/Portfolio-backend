@@ -4,7 +4,7 @@ const morgan = require('morgan');
 
 // const controllers = require('./controllers');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 const projects = require('./projects.json');
 const about =require('./about.json');
@@ -29,7 +29,7 @@ app.get('/projects', (req, res) =>{
 });
 app.get('/home', (req, res) =>{
     // send projectes via JSON
-    res.json(homes);
+    res.json(home);
 });
 
 
